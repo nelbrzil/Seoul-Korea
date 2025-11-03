@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: Cormorant Garamond, serif;
+}
+
+p, h5 {
+    font-family: Manrope, sans-serif;
+}
+
+/* NAVBAR */
+.navbar-nav li a {
+    color: black;
+}
+
+/* HOMEPAGE */
+.hero {
+    background: url('image/seoul-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-text h1 {
+    font-family: Cormorant Garamond, serif;
+    font-size: 1rem;
+}
+.home-text p {
+    font-family: Manrope, sans-serif;
+    font-size: 1rem;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* ABOUT */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+/* LANDMARK */
+.landmark-img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.landmark-img:hover {
+    transform: scale(1.05);
+}
+
+/* BOOKNOW */
+.booknow {
+  background-color: white;
+  color: black;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
